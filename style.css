@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+body{
+    background-color:#e0e0e0;
+    font-weight:bold;
+    font-family:'Raleway', sans-serif;
+}
+strong{
+    color:#2493df ;
+}
+img{
+    float:left;
+    margin-right:10px;
+}
+footer{
+    color:#595959;
+    font-size:14px;
+    text-align:center;
+    margin-top:10px;
+    margin-bottom:100px;
+}
+h1{
+    font-size:20px;
+    letter-spacing:2px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+label{
+    font-weight:bold;
+    font-size:16px;
+}
+section{
+    padding:10px;
+    background-color:white;
+}
+#buy{
+    background-color:#687373;
+    margin-top:10px;
+    color:#fcfcfc;
+    position:fixed;
+    bottom:0;
+    right:0;
+    box-sizing:border-box;
+    width:100%;
+}
+ul{
+    list-style:square inside none;
+}
+li{
+    padding-left:30px;
+    line-height:1.2;
+    margin-bottom:5px;
+}
+table{
+    border-collapse:collapse;
+}
+td{
+    border:1px black solid;
+    padding:10px;
+}
+th{
+    border:1px black solid;
+    background-color:#2493df;
+    color:white;
+    padding:10px;
+}
+input[type="number"]{
+    padding:2px;
+    text-align:center;
+    width:50px;
+}
+input[type="button"]{
+    background-color:#2493df;
+    font-weight:bold;
+    font-size:16px;
+    border:none;
+    color:white;
+    height:40px;
+    width:100%;
+}
+form{
+    display:flex;
+}
+.form-section{
+    flex:1;
+}
